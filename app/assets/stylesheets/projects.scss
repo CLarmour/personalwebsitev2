@@ -1,0 +1,59 @@
+// Place all the styles related to the Projects controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+    background: linear-gradient(to bottom, #ffffff, #66ff33);
+}
+
+
+#projects-top {
+  font-family: Raleway, Verdana;
+  color: #000066;
+  font-weight: 300;
+}
+
+#projects-banzai {
+  font-family: Raleway, Verdana;
+  color: #000066;
+  font-weight: 300;
+}
+
+.wrapper {
+  position: relative;
+  padding: 0;
+  width: 100px;
+  display: block;
+}
+
+.text {
+  border-radius: 25px;
+  position: absolute;
+  padding-top: 80px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 80px;
+  color: #000066;
+  background-color:rgba(255,255,255,0.8);
+  width: 900px;
+  height: 500px;
+  line-height: 50px;
+  text-align: center;
+  z-index: 10;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.text:hover {
+  opacity: 1;
+}
+
+.Banzai {
+  z-index: 1;
+  border-radius: 25px;
+  width: 900px;
+  height: 500px;
+}

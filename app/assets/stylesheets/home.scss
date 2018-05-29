@@ -1,0 +1,50 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+    background: linear-gradient(to bottom, #ffffff, #66ff33);
+}
+
+#Greetings {
+  font-family: Raleway, Verdana;
+  color: #000066;
+  font-weight: 300;
+}
+
+#info {
+  font-family: Raleway, Verdana;
+  color: #000066;
+}
+
+.container {
+  max-width: 900px;
+  article {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    max-width: 400px;
+  }
+}
+
+.img-circle {
+  width: 50%;
+}
+
+#home-top {
+  font-family: Raleway, Verdana;
+  background-color: #ffffff;
+  height: 50px;
+}
+
+.intro {
+  text-align: right;
+}
+
+.planets {
+  text-align: center;
+}
+
+// ------ //
+
